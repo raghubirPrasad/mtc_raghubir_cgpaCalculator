@@ -284,7 +284,7 @@ function loadcalculator(label = '', genbtn = "Submit")
         return
       }
       totalpoints += grade * credit
-      totalcredits += credit
+      totalcredits = totalcredits + credit
     }
     document.getElementById('result').innerHTML = `<strong>Your CGPA is: ${(totalpoints / totalcredits).toFixed(2)}</strong>`
   }
