@@ -1,0 +1,208 @@
+body 
+{
+  background: #fff; /* specifying colours by finding hex code from google */
+  font-family: Arial, sans-serif, 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.container 
+{
+  width: 800px; 
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+h1 
+{
+  text-align: center;
+  color: #0078d7; 
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.subtitle 
+{
+  text-align: center;
+  color: #e81123;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  margin-top: 0;
+}
+
+.year-buttons 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.year-btn 
+{
+  width: 250px;
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  padding: 14px 0;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.year-btn:hover 
+{
+  background: #e81123;
+}
+
+.year-dropdown 
+{
+  width: 270px;
+  padding: 12px;
+  margin: 0 auto 20px auto;
+  display: block;
+  font-size: 1.1em;
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.year-dropdown:focus 
+{
+  outline: none;
+  background: #005fa3;
+}
+
+label 
+{
+  display: block;
+  margin-top: 15px;
+  color: #000;
+  font-size: 1.1em;
+}
+
+input[type="number"] 
+{
+  width: 70px;
+  padding: 6px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button 
+{
+  background: #0078d7; /* blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background 0.3s;
+}
+
+button:hover 
+{
+  background: #e81123; /* red */
+}
+
+#result 
+{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  color: #000;
+}
+
+.subject-row 
+{
+  margin-bottom: 15px;
+}
+
+.back-btn 
+{
+  margin-bottom: 30px;
+  background: #000;
+  color: #fff;
+  width: 120px;
+  padding: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.back-btn:hover 
+{
+  background: #333;
+}
+
+.semester-row 
+{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.semester-row label 
+{
+  width: 60%;
+  text-align: left;
+  margin-right: 15px;
+  font-size: 1.1em;
+}
+
+.semester-row input 
+{
+  width: 120px;
+  padding: 8px;
+  font-size: 1.1em;
+}
+
+.legend-box 
+{
+  margin: 20px auto 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  max-width: 400px;
+  font-size: 1.05em;
+}
+
+
+.legend-box table 
+{
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.legend-box td 
+{
+  padding: 6px 8px;
+  border-bottom: 1px solid #ddd;
+}
+
